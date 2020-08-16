@@ -4,6 +4,7 @@ import { ColorConsumer } from '../contexts/color';
 const ColorBox = () => {
   return (
     <ColorConsumer>
+      {/* value.state 구조분해 할당 사용 */}
       {({ state }) => (
         <>
           <div
